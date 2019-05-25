@@ -1,0 +1,47 @@
+
+@import '../../assets/scss/vars.scss';
+.header{
+    .header-content{
+        padding: 25px 0;
+        > .container{
+            display: flex;
+            align-items: center;
+            .search-wrapper{
+                flex: 1;
+                .search-content{
+                    max-width: 600px;
+                    display: flex;
+                    margin: 0 auto;
+                    .ant-input-group{
+                        position: relative;
+                        .ant-input{
+                            height: 50px;
+                            border-radius: 25px;
+                            height: 50px;
+                        }
+                        .ant-btn{
+                            position: absolute;
+                            right: 6px;
+                            width: 100px;
+                            border-radius: 20px;
+                            height: 40px;
+                            z-index: 1;
+                            top: 5px;
+                            background-color: $green-color;
+                            border-color: $green-color;
+                            &:hover{
+                                background-color: black;
+                            }
+                        }
+                    }
+                }
+            }
+            .shop-cart-wrapper{
+                margin-right: 25px;
+                .anticon{
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}

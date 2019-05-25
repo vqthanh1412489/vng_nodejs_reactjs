@@ -1,0 +1,168 @@
+[
+    {
+       "categoryName": "Electronic Devices",
+       "categoryId": "1",
+       "isLeaf": false,
+       "childCategories":
+        [
+          {
+             "categoryName": "Mobiles",
+             "categoryId": "11",
+             "isLeaf": false,
+             "childCategories":
+              [
+                {
+                   "categoryName": "Samsung",
+                   "categoryId": "111",
+                   "isLeaf": true,
+                   "childCategories": []
+                },
+                {
+                   "categoryName": "Apple",
+                   "categoryId": "112",
+                   "isLeaf": true,
+                   "childCategories": []
+                },
+                {
+                   "categoryName": "Sony",
+                   "categoryId": "114",
+                   "isLeaf": true,
+                   "childCategories": []
+                }
+              ]
+          },
+          {
+             "categoryName": "Laptops",
+             "categoryId": "12",
+             "isLeaf": false,
+             "childCategories":
+              [
+                {
+                   "categoryName": "Dell",
+                   "categoryId": "121",
+                   "isLeaf": true,
+                   "childCategories": []
+                },
+                {
+                   "categoryName": "HP",
+                   "categoryId": "122",
+                   "isLeaf": true,
+                   "childCategories": []
+                },
+                {
+                  "categoryName": "Thinkpad",
+                   "categoryId": "124",
+                   "isLeaf": true,
+                   "childCategories": []
+                }
+              ]
+          }
+        ]
+    },
+    {
+       "categoryName": "Health & Beauty",
+       "categoryId": "2",
+       "isLeaf": false,
+       "childCategories":
+        [
+          {
+             "categoryName": "Hair Care",
+             "categoryId": "21",
+             "isLeaf": true,
+             "childCategories": []
+          },
+          {
+             "categoryName": "Bath & Body",
+             "categoryId": "12",
+             "isLeaf": false,
+             "childCategories":
+              [
+                {
+                   "categoryName": "Lady Speed Stick Personal Care",
+                   "categoryId": "121",
+                   "isLeaf": true,
+                   "childCategories": []
+                },
+                {
+                   "categoryName": "Foot care",
+                   "categoryId": "122",
+                   "isLeaf": true,
+                   "childCategories": []
+                }
+              ]
+          },
+          {
+             "categoryName": "Personal Care",
+             "categoryId": "12",
+             "isLeaf": false,
+             "childCategories":
+              [
+                {
+                   "categoryName": "Hand care",
+                   "categoryId": "121",
+                   "isLeaf": true,
+                   "childCategories": []
+                },
+                {
+                   "categoryName": "Hôi nách",
+                   "categoryId": "122",
+                   "isLeaf": true,
+                   "childCategories": []
+                },
+                {
+                   "categoryName": "Hôi chân",
+                   "categoryId": "124",
+                   "isLeaf": true,
+                   "childCategories": []
+                }
+              ]
+          }
+        ]
+    },
+    {
+       "categoryName": "Home & Lifestyle",
+       "categoryId": "3",
+       "isLeaf": false,
+       "childCategories":
+        [
+          {
+             "categoryName": "Kitchen & Dining",
+             "categoryId": "31",
+             "isLeaf": true,
+             "childCategories": []
+          },
+          {
+             "categoryName": "Decor",
+             "categoryId": "32",
+             "isLeaf": true,
+             "childCategories": []
+          },
+          {
+             "categoryName": "Bath",
+             "categoryId": "33",
+             "isLeaf": true,
+             "childCategories": []
+          }
+        ]
+    },
+    {
+       "categoryName": "Men's Fashion",
+       "categoryId": "4",
+       "isLeaf": false,
+       "childCategories":
+        [
+          {
+             "categoryName": "Clothing",
+             "categoryId": "41",
+             "isLeaf": true,
+             "childCategories": []
+          },
+          {
+             "categoryName": "Under Waer",
+             "categoryId": "42",
+             "isLeaf": true,
+             "childCategories": []
+          }
+        ]
+    }
+  ]

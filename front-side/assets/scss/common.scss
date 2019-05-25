@@ -1,0 +1,15 @@
+@import './vars.scss';
+@media(min-width: 1200px){
+    .container{
+        width: 1170px;
+        padding: 0;
+        margin: 0 auto;
+    }
+}
+input:hover{
+    border-color: $grey-color!important;
+}
+input:focus{
+    box-shadow: none!important;
+    border-color: $grey-color!important;;
+}
